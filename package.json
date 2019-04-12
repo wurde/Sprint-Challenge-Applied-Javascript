@@ -4,7 +4,9 @@
   "description": "Demonstrate mastery on DOM and the concept of components.",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "build": "less-watch-compiler --run-once less css index.less",
+    "build:watch": "less-watch-compiler less css index.less"
   },
   "repository": {
     "type": "git",
