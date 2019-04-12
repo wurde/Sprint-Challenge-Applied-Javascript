@@ -22,10 +22,12 @@ class Carousel {
 
   hideAllImages() {
     this.images.forEach(image => image.style.display = 'none')
+    this.images.forEach(image => image.style.opacity = 0)
   }
 
   showImage(index) {
     this.images[index].style.display = 'block'
+    this.images[index].style.opacity = 1
   }
 
   clickLeft() {
