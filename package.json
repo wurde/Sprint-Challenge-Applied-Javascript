@@ -1,0 +1,26 @@
+{
+  "name": "Sprint-Challenge-Applied-Javascript",
+  "version": "1.0.0",
+  "description": "Demonstrate mastery on DOM and the concept of components.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "less-watch-compiler --run-once less css index.less",
+    "build:watch": "less-watch-compiler less css index.less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurde/Sprint-Challenge-Applied-Javascript.git"
+  },
+  "keywords": [],
+  "author": "Andy Bettisworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wurde/Sprint-Challenge-Applied-Javascript/issues"
+  },
+  "homepage": "https://github.com/wurde/Sprint-Challenge-Applied-Javascript#readme",
+  "devDependencies": {
+    "less-watch-compiler": "^1.13.0",
+    "live-server": "^1.2.1"
+  }
+}
