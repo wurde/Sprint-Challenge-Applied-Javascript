@@ -53,6 +53,7 @@ body {
   flex-direction: row;
   position: fixed;
   height: 44px;
+  z-index: 2;
   background-color: #333;
 }
 .top-bar .container {
@@ -292,15 +293,17 @@ body {
   top: 50%;
   left: 25px;
   transform: translate(0, -50%);
+  user-select: none;
 }
 .carousel .right-button {
   top: 50%;
   right: 25px;
   transform: translate(0, -50%);
+  user-select: none;
 }
 .carousel img {
   width: 100%;
   display: none;
   transition: opacity 1s;
-  z-index: 0;
+  z-index: -1;
 }
