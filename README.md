@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM stands for Document Object Model. It provides an API to your web pages. You gain access to events and node trees.
+
 2. What is an event?
+
+An event signals something has happened within your web page. It allows you to hook into and add custom event handling logic.
 
 3. What is an event listener?
 
+An event listener is how you add event based logic to your web page.
+
 4. Why would we convert a NodeList into an Array?
 
+By converting NodeList into an Array we gain access to useful functions like `map`.
+
 5. What is a component?
+
+A component is a method of encapsulating pieces of your web application for reuse.
 
 ### Git Set up
 
