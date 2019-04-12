@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wurde/Sprint-Challenge-Applied-Javascript/issues"
   },
-  "homepage": "https://github.com/wurde/Sprint-Challenge-Applied-Javascript#readme"
+  "homepage": "https://github.com/wurde/Sprint-Challenge-Applied-Javascript#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
